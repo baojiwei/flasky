@@ -8,7 +8,7 @@ from flask.ext.bootstrap import Bootstrap
 
 
 app = Flask(__name__)
-#manager = Manager(app)
+manager = Manager(app)
 
 @app.route('/')
 def index_test():
